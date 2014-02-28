@@ -1,0 +1,26 @@
+{
+  "name": "cohorts",
+  "version": "0.0.0",
+  "description": "A JavaScript tool for A/B testing.",
+  "main": "cohorts.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec tests"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "grunt": "~0.4.2",
+    "chai": "~1.9.0",
+    "sinon": "~1.8.2",
+    "mocha-phantomjs": "~3.3.2",
+    "phantomjs": "~1.9.7-1",
+    "grunt-mocha": "~0.4.10"
+  }
+}
